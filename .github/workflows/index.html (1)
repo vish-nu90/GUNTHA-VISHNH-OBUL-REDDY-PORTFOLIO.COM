@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <title>Portfolio - Vishnu Obul Reddy Guntha</title> 
+  <link rel="stylesheet" href="style.css"> 
+ <style type="text/css" id="dcoder_stylesheet">/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background: violet;
+    color: ; black 
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 50;
+    font-size: 2.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section Styles */
+section {
+    padding: 2rem 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    text-align: center;
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skills-list li {
+    list-style-type: none;
+    background: #eee;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Project Styles */
+.project {
+    margin-bottom: 2rem;
+}
+
+.project h3 {
+    text-align: center;
+}
+
+.project p {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.project a {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #007bff;
+    padding: 10px;
+}
+
+/* Contact Section Styles */
+#contact p {
+    text-align: center;
+}
+
+#contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}</style></head> 
+ <body> 
+  <header> 
+   <div class="container"> 
+    <h3>Vishnu Obul Reddy Guntha</h3> 
+    <h4>software developer </h4> 
+    <nav> 
+     <ul align="left"> 
+      <li><a href="#about">About</a></li> 
+      <br> 
+      <li><a href="#skills">Skills</a></li> 
+      <br> 
+      <li><a href="#projects">Projects</a></li> 
+      <br> 
+      <li><a href="#contact">Contact</a></li> 
+     </ul> 
+    </nav> 
+   </div> 
+  </header> 
+  <section id="about"> 
+   <div class="container"> 
+    <h2>About Me</h2> 
+    <img src="imgvishnu.jpg" alt="Vishnu Obul Reddy Guntha"> 
+    <p> I am a passionate and aspiring frontend developer, recently graduated with a Bachelor’s degree in Computer Science. I have hands-on experience with HTML, CSS, and JavaScript and a strong interest in building responsive and interactive web applications. </p> 
+   </div> 
+  </section> 
+  <section id="skills"> 
+   <div class="container"> 
+    <h2>Skills</h2> 
+    <ul class="skills-list"> 
+     <li>HTML5</li> 
+     <br> 
+     <li>CSS3</li> 
+     <br> 
+     <li>JavaScript (ES6+)</li> 
+     <br> 
+     <li>React.js</li> 
+     <br> 
+     <li>Git &amp; GitHub</li> 
+     <br> 
+     <li>Responsive Web Design</li> 
+    </ul> 
+   </div> 
+  </section> 
+  <section id="projects"> 
+   <div class="container"> 
+    <h2>Projects</h2> 
+    <div class="project"> 
+     <h3>Portfolio Website</h3> 
+     <p>A personal portfolio website created using HTML, CSS, and JavaScript.</p> <a href="https://github.com/yourusername/portfolio" target="_blank">View on GitHub</a> 
+    </div> 
+    <div class="project"> 
+     <h3>Weather App</h3> 
+     <p>A weather forecasting web application using JavaScript and a public weather API.</p> <a href="https://github.com/yourusername/weather-app" target="_blank">View on GitHub</a> 
+    </div> 
+   </div> 
+  </section> 
+  <section id="contact"> 
+   <div class="container"> 
+    <h2>Contact Me</h2> 
+    <p>Email: <a href="mailto:your.email@example.com">gunthavishnuobulreddy@gmail.com</a></p> 
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">https://github.com/yourusername</a></p> 
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">https://www.linkedin.com/in/36b336247</a></p> 
+    <p>call me: <a href="tel:+91 9014564154"> +91 9014564154 </a></p> 
+   </div> 
+  </section> 
+  <footer> 
+   <div class="container"> 
+    <p>© 2024 Vishnu Obul Reddy Guntha. All rights reserved.</p> 
+   </div> 
+  </footer> 
+ 
+</body></html>
