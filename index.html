@@ -13,7 +13,7 @@ body {
     padding: 0;
     line-height: 1.6;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: white;
 }
 
 .container {
@@ -30,7 +30,7 @@ header {
 }
 
 header h1 {
-    margin: 0;
+    margin: 50;
     font-size: 2.5rem;
 }
 
@@ -122,17 +122,26 @@ footer {
     padding: 1rem 0;
     margin-top: 2rem;
 }
-</style></head> 
+#signup{
+  color:candy red;
+  background:off white;
+}</style></head> 
  <body> 
   <header> 
-   <div class="container"> 
-    <h1>Vishnu Obul Reddy Guntha</h1> 
+   <div class="container" align="center"> 
+    <h3>Vishnu Obul Reddy Guntha</h3> 
+    <h4>software developer </h4> 
     <nav> 
-     <ul> 
+     <ul align="left"> 
       <li><a href="#about">About</a></li> 
+      <br> 
       <li><a href="#skills">Skills</a></li> 
-      <li><a href="#projects">Projects</a></li> 
+      <br> 
+      <li><a href="#projects">Projects</a> </li>
+       <br>
       <li><a href="#contact">Contact</a></li> 
+      <br> 
+      <li><a href="#signup"></a>sign up</li> 
      </ul> 
     </nav> 
    </div> 
@@ -140,7 +149,44 @@ footer {
   <section id="about"> 
    <div class="container"> 
     <h2>About Me</h2> 
+    <img src="imgvishnu.jpg" alt="Vishnu Obul Reddy Guntha"> 
     <p> I am a passionate and aspiring frontend developer, recently graduated with a Bachelor’s degree in Computer Science. I have hands-on experience with HTML, CSS, and JavaScript and a strong interest in building responsive and interactive web applications. </p> 
+    <h3>Educational details </h3> <thread> 
+    </thread> 
+    <table align="left" border="2"> 
+     <tbody> 
+      <tr> 
+       <th>SL no</th> 
+       <th>Name of the institution</th> 
+       <th>studied</th> 
+       <th>marks/cgpa </th> 
+       <th>passout year</th> 
+      </tr> 
+     </tbody> 
+     <tbody> 
+      <tr> 
+       <td>1</td> 
+       <td>S.B.V.R Degree college, Badvel</td> 
+       <td align="center">B.Sc</td> 
+       <td align="center">7.89</td> 
+       <td align="center">2024</td> 
+      </tr> 
+      <tr> 
+       <td>2</td> 
+       <td>Sri Venkateswara Jr College, Porumamilla</td> 
+       <td>Intermediate</td> 
+       <td align="center">944</td> 
+       <td align="center">2021</td> 
+      </tr> 
+      <tr> 
+       <td>3</td> 
+       <td> St Antony's EM High school, porumamilla </td> 
+       <td>10th class </td> 
+       <td align="center">9.8</td> 
+       <td align="center">2019</td> 
+      </tr> 
+     </tbody> 
+    </table> 
    </div> 
   </section> 
   <section id="skills"> 
@@ -148,10 +194,15 @@ footer {
     <h2>Skills</h2> 
     <ul class="skills-list"> 
      <li>HTML5</li> 
+     <br> 
      <li>CSS3</li> 
+     <br> 
      <li>JavaScript (ES6+)</li> 
+     <br> 
      <li>React.js</li> 
+     <br> 
      <li>Git &amp; GitHub</li> 
+     <br> 
      <li>Responsive Web Design</li> 
     </ul> 
    </div> 
@@ -175,8 +226,27 @@ footer {
     <p>Email: <a href="mailto:your.email@example.com">gunthavishnuobulreddy@gmail.com</a></p> 
     <p>GitHub: <a href="https://github.com/yourusername" target="_blank">https://github.com/yourusername</a></p> 
     <p>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">https://www.linkedin.com/in/36b336247</a></p> 
-    <p>call me:  <a href="tel:+91 9014564154"> +91 9014564154
-    </a></p> 
+    <p>call me: <a href="tel:+91 9014564154"> +91 9014564154 </a></p> 
+   </div> 
+  </section> 
+  <section id="signup"> 
+   <div class="container"> 
+    <h2> sign up</h2> 
+    <form action="/submit" method="post"> <label for="name">Name:</label> 
+     <input type="text" id="name" name="name"> 
+     <br> 
+     <br> <label for="email">E-mail:</label> 
+     <input type="text" id="email" name="email"> 
+     <br> 
+     <br> <label for="gender">Gender:</label> 
+     <input type="radio" id="male" name="gender" value="male"> 
+       <label for="male">Male</label> 
+     <input type="radio" id="female" name="gender" value="female"> 
+       <label for="female ">female </label> 
+     <br> 
+     <br> 
+     <input type="submit" value="submit&quot;"> 
+    </form> 
    </div> 
   </section> 
   <footer> 
