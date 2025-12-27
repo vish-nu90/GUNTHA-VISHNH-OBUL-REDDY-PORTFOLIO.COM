@@ -1,258 +1,96 @@
-<!doctype html>
-<html lang="en"> 
- <head> 
-  <meta charset="UTF-8"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-  <title>Portfolio - Vishnu Obul Reddy Guntha</title> 
-  <link rel="stylesheet" href="style.css"> 
- <style type="text/css" id="dcoder_stylesheet">/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    color: #333;
-    background-color: white;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishnu | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
+<!-- Navbar -->
+<nav>
+    <h2 class="logo">Vishnu</h2>
+    <ul id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <i class="fas fa-bars" id="toggle"></i>
+</nav>
 
-/* Header Styles */
-header {
-    background: violet;
-    color: ; black 
-    padding: 1rem 0;
-    text-align: center;
-}
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Hi, I'm <span>Vishnu</span></h1>
+        <h3>MCA Student | CS Lecturer</h3>
+        <p>Passionate about Web Development, Teaching & Software Technologies</p>
+        <a href="#contact" class="btn">Hire Me</a>
+    </div>
+</section>
 
-header h1 {
-    margin: 50;
-    font-size: 2.5rem;
-}
+<!-- About -->
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        I am an MCA student and part-time Computer Science lecturer.
+        I love building web applications, teaching technical subjects,
+        and continuously learning new technologies.
+    </p>
+</section>
 
-header nav ul {
-    list-style: none;
-    padding: 0;
-}
+<!-- Skills -->
+<section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Python</div>
+        <div class="skill">Java</div>
+        <div class="skill">DBMS</div>
+    </div>
+</section>
 
-header nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
+<!-- Projects -->
+<section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-container">
 
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Responsive portfolio using HTML, CSS & JS</p>
+            <a href="#" target="_blank">GitHub</a>
+        </div>
 
-/* Section Styles */
-section {
-    padding: 2rem 0;
-}
+        <div class="project-card">
+            <h3>Student Management System</h3>
+            <p>CRUD application using PHP & MySQL</p>
+            <a href="#" target="_blank">GitHub</a>
+        </div>
 
-h2 {
-    text-align: center;
-    margin-bottom: 1rem;
-}
+    </div>
+</section>
 
-#about p {
-    text-align: center;
-    font-size: 1.1rem;
-    max-width: 600px;
-    margin: 0 auto;
-}
+<!-- Contact -->
+<section id="contact" class="section">
+    <h2>Contact Me</h2>
 
-.skills-list {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
+    <div class="contact-links">
+        <a href="mailto:yourmail@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+</section>
 
-.skills-list li {
-    list-style-type: none;
-    background: #eee;
-    padding: 10px 20px;
-    margin: 5px;
-    border-radius: 5px;
-}
+<footer>
+    <p>© 2025 Vishnu | All Rights Reserved</p>
+</footer>
 
-/* Project Styles */
-.project {
-    margin-bottom: 2rem;
-}
-
-.project h3 {
-    text-align: center;
-}
-
-.project p {
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.project a {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    text-decoration: none;
-    color: #007bff;
-    padding: 10px;
-}
-
-/* Contact Section Styles */
-#contact p {
-    text-align: center;
-}
-
-#contact a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-/* Footer Styles */
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
-}
-#signup{
-  color:candy red;
-  background:off white;
-}</style></head> 
- <body> 
-  <header> 
-   <div class="container" align="center"> 
-    <h3>Vishnu Obul Reddy Guntha</h3> 
-    <h4>software developer </h4> 
-    <nav> 
-     <ul align="left"> 
-      <li><a href="#about">About</a></li> 
-      <br> 
-      <li><a href="#skills">Skills</a></li> 
-      <br> 
-      <li><a href="#projects">Projects</a> </li>
-       <br>
-      <li><a href="#contact">Contact</a></li> 
-      <br> 
-      <li><a href="#signup"></a>sign up</li> 
-     </ul> 
-    </nav> 
-   </div> 
-  </header> 
-  <section id="about"> 
-   <div class="container"> 
-    <h2>About Me</h2> 
-    <img src="C:\Users\gunth\OneDrive\Pictures\photo.jpg" align="right" WIDTH="500" height="500" alt="Vishnu Obul Reddy Guntha"> 
-    <p> I am a passionate and aspiring frontend developer, recently graduated with a Bachelor’s degree in Computer Science. I have hands-on experience with HTML, CSS, and JavaScript and a strong interest in building responsive and interactive web applications. </p> 
-    <h3>Educational details </h3> <thread> 
-    </thread> 
-    <table align="left" border="2"> 
-     <tbody> 
-      <tr> 
-       <th>SL no</th> 
-       <th>Name of the institution</th> 
-       <th>studied</th> 
-       <th>marks/cgpa </th> 
-       <th>passout year</th> 
-      </tr> 
-     </tbody> 
-     <tbody> 
-      <tr> 
-       <td>1</td> 
-       <td>S.B.V.R Degree college, Badvel</td> 
-       <td align="center">B.Sc</td> 
-       <td align="center">7.89</td> 
-       <td align="center">2024</td> 
-      </tr> 
-      <tr> 
-       <td>2</td> 
-       <td>Sri Venkateswara Jr College, Porumamilla</td> 
-       <td>Intermediate</td> 
-       <td align="center">944</td> 
-       <td align="center">2021</td> 
-      </tr> 
-      <tr> 
-       <td>3</td> 
-       <td> St Antony's EM High school, porumamilla </td> 
-       <td>10th class </td> 
-       <td align="center">9.8</td> 
-       <td align="center">2019</td> 
-      </tr> 
-     </tbody> 
-    </table> 
-   </div> 
-  </section> 
-  <section id="skills"> 
-   <div class="container"> 
-    <h2>Skills</h2> 
-    <ul class="skills-list"> 
-     <li>HTML5</li> 
-     <br> 
-     <li>DBMS</li> 
-     <br> 
-     <li>JavaScript (ES6+)</li> 
-     <br> 
-     <li>React.js</li> 
-     <br> 
-     <li>Git &amp; GitHub</li> 
-     <br> 
-     <li>Responsive Web Design</li> 
-    </ul> 
-   </div> 
-  </section> 
-  <section id="projects"> 
-   <div class="container"> 
-    <h2>Projects</h2> 
-    <div class="project"> 
-     <h3>Portfolio Website</h3> 
-     <p>A personal portfolio website created using HTML, CSS, and JavaScript.</p> <a href="https://github.com/yourusername/portfolio" target="_blank">View on GitHub</a> 
-    </div> 
-    <div class="project"> 
-     <h3>Weather App</h3> 
-     <p>A weather forecasting web application using JavaScript and a public weather API.</p> <a href="https://github.com/yourusername/weather-app" target="_blank">View on GitHub</a> 
-    </div> 
-   </div> 
-  </section> 
-  <section id="contact"> 
-   <div class="container"> 
-    <h2>Contact Me</h2> 
-    <p>Email: <a href="mailto:your.email@example.com">gunthavishnuobulreddy@gmail.com</a></p> 
-    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">https://github.com/yourusername</a></p> 
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">https://www.linkedin.com/in/36b336247</a></p> 
-    <p>call me: <a href="tel:+91 9014564154"> +91 9014564154 </a></p> 
-   </div> 
-  </section> 
-  <section id="signup"> 
-   <div class="container"> 
-    <h2> sign up</h2> 
-    <form action="/submit" method="post"> <label for="name">Name:</label> 
-     <input type="text" id="name" name="name"> 
-     <br> 
-     <br> <label for="email">E-mail:</label> 
-     <input type="text" id="email" name="email"> 
-     <br> 
-     <br> <label for="gender">Gender:</label> 
-     <input type="radio" id="male" name="gender" value="male"> 
-       <label for="male">Male</label> 
-     <input type="radio" id="female" name="gender" value="female"> 
-       <label for="female ">female </label> 
-     <br> 
-     <br> 
-     <input type="submit" value="submit&quot;"> 
-    </form> 
-   </div> 
-  </section> 
-  <footer> 
-   <div class="container"> 
-    <p>© 2024 Vishnu Obul Reddy Guntha. All rights reserved.</p> 
-   </div> 
-  </footer> 
- 
-</body></html>
+<script src="script.js"></script>
+</body>
+</html>
